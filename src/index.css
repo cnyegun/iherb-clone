@@ -1,0 +1,7 @@
+:root {
+  /* font-size: 15px; */
+  font-family: 'Roboto';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
