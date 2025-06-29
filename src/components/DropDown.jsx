@@ -22,7 +22,7 @@ function LinkBarGroup({ menulist }) {
 
 export default function DropDown() {
     return (
-        <div className="items-center-safe border border-gray-300 bg-white h-11 flex justify-center-safe">
+        <div className="items-center-safe border border-gray-300 bg-white flex justify-center-safe">
             <div className="w-330 flex justify-between">
                 <div className="flex items-center-safe">
                     <LinkBarGroup menulist={byCategories} />

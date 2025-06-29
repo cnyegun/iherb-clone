@@ -78,7 +78,7 @@ function SitePrefHeader() {
 
 export default function TopHeader() {
     return (
-    <div className="justify-center-safe flex h-10 bg-gray-50">
+    <div className="sm:hidden md:flex justify-center-safe h-10 bg-gray-50">
         <div className="w-330 flex justify-between h-10">
             <PromoHeader />
             <SitePrefHeader />
