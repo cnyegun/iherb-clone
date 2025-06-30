@@ -13,8 +13,8 @@ function LinkBarItem({ name, url }) {
 function LinkBarGroup({ menulist }) {
     return (
         <ul className="flex pl-2 pr-2 justify-between">
-            {menulist.map(menu =>
-                <LinkBarItem name={menu} url="#" />
+            {menulist.map((menu, index)=>
+                <LinkBarItem key={index} name={menu} url="#" />
             )}
         </ul>
     )
